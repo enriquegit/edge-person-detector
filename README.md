@@ -33,6 +33,9 @@ This demo shows how to use [TensorFlowLite](https://www.tensorflow.org/lite) to 
 
 
 
-This work was supported by the SINTEF project "AI on Edge". 
+
+This work was supported by the SINTEF project "AI on Edge".
+
+@enriquegit @songhui @oceansen
 
 ![](img/logo.png)
