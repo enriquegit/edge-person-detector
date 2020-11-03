@@ -29,3 +29,10 @@ This demo shows how to use [TensorFlowLite](https://www.tensorflow.org/lite) to 
 **Video DEMO**
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PpFgAK_Yq1M/0.jpg)](https://www.youtube.com/watch?v=PpFgAK_Yq1M)
+
+
+
+
+This work was supported by the SINTEF project "AI on Edge". 
+
+![](img/logo.png)
