@@ -1,6 +1,6 @@
 # Person-detector with Edge Computing and Deep Learning.
 
-This is a prototype of a person detector using deep learning and the Google Coral Edge usb accelerator running on a Raspberry Pi and the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/?resellerType=home). A pre-trained deep learning model is used to detect the number of persons from the camera and the person count can be optionally sent to a server with MQTT.
+This is a prototype of a person detector using deep learning and the Google Coral Edge usb accelerator running on a Raspberry Pi and the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/?resellerType=home). A pre-trained deep learning model is used to detect the number of persons from the camera and the person count is shown in the led display. It can also be optionally sent to a server with MQTT.
 
 This demo shows how to use [TensorFlowLite](https://www.tensorflow.org/lite) to implement a real-time person detector running on an Edge device. A pre-trained [mobilenet_ssd_v2_coco_quant_postprocess_edgetpu](https://github.com/google-coral/edgetpu/raw/master/test_data/) deep learning model was used for the detection part. The model is quantized and optimized to run in the Google Coral accelerator.
 
@@ -20,10 +20,10 @@ This demo shows how to use [TensorFlowLite](https://www.tensorflow.org/lite) to 
 
 ## Code
 
-- **person_detector.py**
-- **person_server.py**
-- **detector.py**
-- **models/**
+- **person_detector.py** Script that performs the person detection task.
+- **person_server.py** This is the mqtt based server. It receives the result from the edge device and prints the result.
+- **detector.py** Auxiliary function to perform the detection. 
+- **models/** This is where the quantized model should be copied along with the labels.
 
 
 **Video DEMO**
