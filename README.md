@@ -39,3 +39,5 @@ This work was supported by the SINTEF project "AI on Edge".
 Enrique G., Hui Song, Sagar Sen.
 
 ![](img/logo.png)
+
+Logo created with [freelogodesign.org](https://www.freelogodesign.org/)
