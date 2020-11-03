@@ -22,7 +22,7 @@ This demo shows how to use [TensorFlowLite](https://www.tensorflow.org/lite) to 
 
 - **person_detector.py** Script that performs the person detection task.
 - **person_server.py** This is the mqtt based server. It receives the result from the edge device and prints the result.
-- **detector.py** Auxiliary function to perform the detection. 
+- **detector.py** Auxiliary function to perform the detection. This script was taken from this(https://github.com/google-coral/tflite/tree/master/python/examples/detection) official tflite examples repository.
 - **models/** This is where the quantized model should be copied along with the labels.
 
 
